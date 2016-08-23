@@ -1,0 +1,194 @@
+.navbar {
+	z-index: 10;
+	background-color: orange;
+	
+}
+
+
+#results div{
+	float: left;
+	padding-left: 20px;
+	font-family: Georgia,sans-serif;
+	font-size: 1.5em;
+}
+
+#results img{
+	width:15% ;
+	height: 200px;
+	float: left;
+	margin-left: 200px;
+	margin-top: -50px;
+
+}
+
+#results h1 {
+	display: block;
+	clear: both;
+}
+
+nav{
+	height: 80px;
+	background-color: orange;
+}
+
+header{
+	font-size: 1.5em;
+	 margin-top: 10px;
+	background-color: orange;
+	color: white;
+}
+
+nav ul li{
+	font-size: 1.5em;
+	margin-top: 20px;
+	color: white;	
+}
+
+input{
+	margin-top: 30px;
+
+}
+
+
+.pic{
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	border: 10px solid orange;
+}
+
+.active{
+	background-color: #b3b3b3;
+
+}
+
+
+
+body {
+	margin-top: 7%;
+
+
+}
+
+img{
+	width: 80%;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.text{
+	margin-left: 40%;
+}
+
+
+
+#footer {
+	text-align: center;
+	background-color: orange;
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	border-radius: 10px;
+	clear: both;
+}
+
+#content h3 {
+	color: white;
+	border: 5px solid black;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: orange;
+}
+
+#cart {
+	position: fixed;
+	border: none;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: auto;
+	z-index: 20;
+}
+
+#cartList {
+	position: fixed;
+	text-align: center;
+	left: 10%;
+	right: 10%;
+	top: 20%;
+	bottom: 20%;
+	background-color: #AAFFAA;
+	border-radius: 20px;
+	border: 2px solid black;
+	display: none;
+}
+
+.price {
+	display: inline-block;
+
+}
+
+.cartAddBtn {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#closeList {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+}
+
+#shoppingList {
+	display: inline-block;
+	text-align: left;
+}
+
+#checkoutBtn {
+	background-color:green;
+	color: white;
+}
+
+#resetBtn {
+	background-color:red;
+	color: white;
+}
+
+.itemBlock {
+	display: block;
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.floatLeft {
+	float: left;
+	width: 48%;
+}
+
+.floatRight {
+	float: right;
+	width: 48%;
+}
+
+.categoryTitle {
+	clear: both;
+}
+
+.navbar-brand{
+	color: white;
+}
+
+#All, #Obooks, #Oalbums{
+	color: white;
+}
+
+
+
+

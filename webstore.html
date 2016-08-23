@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <script src="https://code.jquery.com/jquery-2.1.1.js">
+          
+
+
+        </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="webstore.css">
+        <!--jQuery UI Library-->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <title>E-Commerce Website</title>
+      
+
+      
+    </head>
+
+    <body>
+
+
+      <div id = 'container'>
+        <div id="cartList">
+          <img id="closeList" src="http://res.freestockphotos.biz/pictures/15/15106-illustration-of-a-red-close-button-pv.png">
+          <h3>Cart Items:</h3>
+          <div id="shoppingList"></div>
+          <div>
+            <button id="checkoutBtn">Purchase Now!</button>
+            <button id="resetBtn">Clear Cart</button>
+          </div>
+        </div>
+        <img id="cart" src="http://www.comfyco.com/new_images/empty_cart.png">
+
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <header class="navbar-brand">
+                The Great Webstore
+              </header>
+            </div>
+            <ul class="nav navbar-nav ">
+               <!-- <li class="active"><a href="#">Home</a></li> -->
+              <li ><a   href="#" id="All">Show All</a></li>
+              <li><a  href="#" id="Obooks">Only Books</a></li>
+              <li><a  href="#" id="Oalbums">Only Albums</a></li>
+            </ul>
+            <input type='text' id='search_id'>
+			<input type='button' id='search' value='Search'>
+          </div>
+        </nav>
+
+           <div id='results'></div>
+
+
+        <div id = 'content'>
+          
+          <div id = 'books'>
+            <h3 class='categoryTitle'>BOOKS!</h3>
+          </div>
+          
+          <div id = 'music' >
+            <h3 class='categoryTitle'>MUSIC!</h3>
+          </div>
+        </div>
+        <div id = 'footer'>
+          <p>Copyright The Great Webstore &copy</p>
+        </div>
+
+      </div>
+
+
+
+
+    <script src="webstore.js">  
+    
+
+    </script>
+    </body>
+
+    <footer>
+      
+    </footer>
+
+  </html>
+
+
+
+
+
